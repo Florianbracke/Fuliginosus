@@ -1,0 +1,228 @@
+/*--------------------------------------------------------------------------------------*\
+| POPPINS
+\*--------------------------------------------------------------------------------------*/
+@font-face {
+	font-family: "Poppins";
+	src: url("../../assets/fonts/Poppins/Poppins-Light.ttf") format("woff2");
+	/* Add additional formats if necessary */
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("../../assets/fonts/Poppins/Poppins-Regular.ttf") format("woff2");
+	/* Add additional formats if necessary */
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("../../assets/fonts/Poppins/Poppins-Medium.ttf") format("woff2");
+	/* Add additional formats if necessary */
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("../../assets/fonts/Poppins/Poppins-SemiBold.ttf") format("woff2");
+	/* Add additional formats if necessary */
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("../../assets/fonts/Poppins/Poppins-Bold.ttf") format("woff2");
+	/* Add additional formats if necessary */
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("../../assets/fonts/Poppins/Poppins-ExtraBold.ttf") format("woff2");
+	/* Add additional formats if necessary */
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("../../assets/fonts/Poppins/Poppins-Black.ttf") format("woff2");
+	/* Add additional formats if necessary */
+	font-weight: 900;
+}
+
+/*--------------------------------------------------------------------------------------*\
+| ROBOTO
+\*--------------------------------------------------------------------------------------*/
+@font-face {
+	font-family: "Roboto";
+	src: url("../../assets/fonts/Roboto/Roboto-Light.ttf") format("woff2");
+	/* Add additional formats if necessary */
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("../../assets/fonts/Roboto/Roboto-Regular.ttf") format("woff2");
+	/* Add additional formats if necessary */
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("../../assets/fonts/Roboto/Roboto-Medium.ttf") format("woff2");
+	/* Add additional formats if necessary */
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("../../assets/fonts/Roboto/Roboto-SemiBold.ttf") format("woff2");
+	/* Add additional formats if necessary */
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("../../assets/fonts/Roboto/Roboto-Bold.ttf") format("woff2");
+	/* Add additional formats if necessary */
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("../../assets/fonts/Roboto/Roboto-Black.ttf") format("woff2");
+	/* Add additional formats if necessary */
+	font-weight: 900;
+}
+
+/*--------------------------------------------------------------------------------------*\
+| SPACE GROTESK
+\*--------------------------------------------------------------------------------------*/
+@font-face {
+	font-family: "Space_Grotesk";
+	src: url("../../assets/fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf") format("woff2");
+	/* Add additional formats if necessary */
+}
+
+/*--------------------------------------------------------------------------------------*\
+| PLAYFAIR_DISPLAY
+\*--------------------------------------------------------------------------------------*/
+@font-face {
+	font-family: "Playfair_Display";
+	src: url("../../assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("woff2");
+	/* Add additional formats if necessary */
+}
+
+/*--------------------------------------------------------------------------------------*\
+| PLATYPI
+\*--------------------------------------------------------------------------------------*/
+@font-face {
+	font-family: "Platypi";
+	src: url("../../assets/fonts/platypi/Platypi.ttf") format("woff2");
+	/* Add additional formats if necessary */
+}
+
+/*--------------------------------------------------------------------------------------*\
+| OSWALD
+\*--------------------------------------------------------------------------------------*/
+@font-face {
+	font-family: "Oswald";
+	src: url("../../assets/fonts/Oswald/Oswald-VariableFont_wght.ttf") format("woff2");
+	/* Add additional formats if necessary */
+}
+
+/*--------------------------------------------------------------------------------------*\
+| NUNITO_SANS
+\*--------------------------------------------------------------------------------------*/
+@font-face {
+	font-family: "Nunito_Sans";
+	src: url("../../assets/fonts/Nunito_Sans/NunitoSans-VariableFont.ttf") format("woff2");
+	/* Add additional formats if necessary */
+}
+
+/*--------------------------------------------------------------------------------------*\
+| LT_WAVE
+\*--------------------------------------------------------------------------------------*/
+@font-face {
+	font-family: "LT_wave";
+	src: url("../../assets/fonts/LT_wave/LTWave-Light.otf") format("woff2");
+	/* Add additional formats if necessary */
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "LT_wave";
+	src: url("../../assets/fonts/LT_wave/LTWave-Regular.otf") format("woff2");
+	/* Add additional formats if necessary */
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "LT_wave";
+	src: url("../../assets/fonts/LT_wave/LTWave-Medium.otf") format("woff2");
+	/* Add additional formats if necessary */
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "LT_wave";
+	src: url("../../assets/fonts/LT_wave/LTWave-Bold.otf") format("woff2");
+	/* Add additional formats if necessary */
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "LT_wave";
+	src: url("../../assets/fonts/LT_wave/LTWave-Black.otf") format("woff2");
+	/* Add additional formats if necessary */
+	font-weight: 900;
+}
+
+/*--------------------------------------------------------------------------------------*\
+| LT_RENOVATE
+\*--------------------------------------------------------------------------------------*/
+@font-face {
+	font-family: "LT_renovate";
+	src: url("../../assets/fonts/LT_renovate/LTRenovate-Regular.otf") format("woff2");
+	/* Add additional formats if necessary */
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "LT_renovate";
+	src: url("../../assets/fonts/LT_renovate/LTRenovate-Medium.otf") format("woff2");
+	/* Add additional formats if necessary */
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "LT_renovate";
+	src: url("../../assets/fonts/LT_renovate/LTRenovate-Bold.otf") format("woff2");
+	/* Add additional formats if necessary */
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "LT_renovate";
+	src: url("../../assets/fonts/LT_renovate/LTRenovate-ExtraBold.otf") format("woff2");
+	/* Add additional formats if necessary */
+	font-weight: 800;
+}
+
+/*--------------------------------------------------------------------------------------*\
+| LORA
+\*--------------------------------------------------------------------------------------*/
+@font-face {
+	font-family: "Lora";
+	src: url("../../assets/fonts/Lora/Lora-VariableFont_wght.ttf") format("woff2");
+	/* Add additional formats if necessary */
+}
+
+/*--------------------------------------------------------------------------------------*\
+| CHILLAX
+\*--------------------------------------------------------------------------------------*/
+@font-face {
+	font-family: "Chillax";
+	src: url("../../assets/fonts/Chillax/Chillax-Variable.ttf") format("woff2");
+	/* Add additional formats if necessary */
+}

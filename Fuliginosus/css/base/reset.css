@@ -1,0 +1,77 @@
+body {
+	margin: 0;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: var(--zwart);
+}
+
+li > a {
+	text-decoration: unset;
+}
+p > a:hover,
+li > a:hover {
+	text-decoration: underline;
+}
+p:last-child,
+a:last-child,
+li:last-child {
+	margin-bottom: 0;
+}
+
+p:first-child,
+a:first-child,
+li:first-child,
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+	margin-top: 0;
+}
+
+p:only-child,
+a:only-child,
+li:only-child,
+h1:only-child,
+h2:only-child,
+h3:only-child,
+h4:only-child,
+h5:only-child,
+h6:only-child {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+p,
+a,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-underline-offset: 4px;
+	text-decoration-thickness: 1px;
+}
+
+ul {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+*:focus,
+*:focus-visible {
+	outline: none !important;
+	filter: brightness(0.95) !important;
+}
+
+::selection{
+	background-color: var(--primary-color);
+}

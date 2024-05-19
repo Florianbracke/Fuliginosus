@@ -1,0 +1,30 @@
+/*--------------------------------------------------------------------------------------*\
+| ROOT VARIABLES
+\*--------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------*\
+| QUERIES
+\*--------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1800px) {
+}
+
+@media screen and (max-width: 1350px) {
+	:root {
+		--padding-sides: 60px;
+		--max-width: calc(100% - var(--padding-sides));
+		--small-width: calc(100% - var(--padding-sides));
+	}
+}
+
+@media screen and (max-width: 900px) {
+	:root {
+		--spacing-small: 28px;
+		--spacing-mid: 28px;
+		--spacing-medium: 64px;
+		--spacing-big: 128px;
+		--border-right-big: 0 20px 0 0;
+		--border-left-big: 0 0 0 20px;
+		--font-size: 14px;
+		--line-height: 1.35;
+	}
+}

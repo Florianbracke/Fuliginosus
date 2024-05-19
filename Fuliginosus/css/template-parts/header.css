@@ -1,0 +1,188 @@
+header {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	background-color: var(--wit);
+}
+
+/* top nav */
+header .top-nav {
+	display: flex;
+	justify-content: space-between;
+	background: var(--background-color);
+	height: calc(1.5 * var(--spacing-big));
+}
+
+header .top-nav > div {
+	display: flex;
+	align-items: center;
+}
+
+header .top-nav > form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header .top-nav > a {
+	position: relative;
+	top: 0;
+	width: var(--header-logo-size);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: var(--header-logo-size);
+	background: var(--wit);
+}
+
+header .top-nav .logo {
+	width: 100%;
+	padding: var(--spacing-mid);
+}
+
+header .top-nav .menu {
+	display: flex;
+	list-style: none;
+	gap: var(--spacing-mid);
+	padding: 0;
+}
+
+header .top-nav .menu a {
+	text-decoration: unset;
+	font-size: 14px;
+}
+
+/* woo nav */
+header .woo-nav {
+	display: flex;
+	justify-content: space-between;
+	background: var(--primary-color);
+}
+
+header .woo-nav-list {
+	flex-direction: row;
+	display: flex;
+	list-style: none;
+	padding: 0;
+}
+
+header .woo-nav-list li {
+	display: flex;
+	position: relative;
+}
+
+header .woo-nav-list li:first-child {
+	margin-left: var(--header-logo-size);
+}
+
+header .woo-nav-list a {
+	text-decoration: unset;
+	font-size: 14px;
+	color: var(--wit);
+	padding: 0;
+	height: var(--spacing-big);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-right: var(--spacing-mid);
+	padding-left: var(--spacing-mid);
+}
+
+header .woo-nav-list a:hover {
+	background-color: var(--grijs);
+	color: var(--zwart);
+}
+
+header .woo-nav-list .woo-nav-list-item-child {
+	justify-content: flex-start;
+	min-height: 64px;
+}
+
+.child-container {
+	position: absolute;
+	top: 100%;
+	display: flex;
+	flex-direction: column;
+	background: var(--primary-color);
+	z-index: 10000;
+	transition: 0.25s;
+	clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+header .woo-nav-list .woo-nav-list-item:hover .child-container {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+/* LANG SWITCHER */
+.trp-language-switcher-container span {
+}
+
+/* modal */
+header .header-modal {
+	height: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+header .header-modal * {
+	font-size: 13px;
+}
+
+/* mobile */
+header .mobile-nav {
+	display: none;
+}
+header li.current-menu-item > a {
+	font-weight: 500;
+}
+
+/*--------------------------------------------------------------------------------------*\
+| QUERIES
+\*--------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1800px) {
+}
+
+@media screen and (max-width: 1350px) {
+}
+
+@media screen and (max-width: 900px) {
+	header,
+	footer {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	footer {
+		flex-direction: column;
+	}
+
+	header .menu-wrapper {
+		display: none;
+	}
+
+	header .mobile-nav {
+		display: flex;
+	}
+
+	/* ACTIVE MOBILE */
+	header.active-mobile {
+		position: relative;
+		flex-direction: row;
+	}
+
+	header .menu-wrapper.active-mobile {
+		display: flex;
+	}
+
+	header.site-header.active-mobile .menu-wrapper {
+		position: absolute;
+		flex-direction: column;
+		width: 100%;
+		height: fit-content;
+		background-color: rgb(0, 189, 41);
+		z-index: 10;
+		left: 0;
+		top: 100%;
+		padding: var(--padding-sides);
+	}
+}

@@ -1,0 +1,123 @@
+/*--------------------------------------------------------------------------------------*\
+| TYPOGRAPHY
+\*--------------------------------------------------------------------------------------*/
+p {
+	font-size: var(--text-font-size);
+	letter-spacing: 0;
+	line-height: var(--line-height);
+	font-family: var(--font-text);
+	font-weight: 400;
+	text-wrap: pretty;
+}
+
+a {
+	font-size: var(--text-font-size);
+	letter-spacing: 0;
+	line-height: var(--line-height);
+	font-family: var(--font-text);
+	font-weight: 400;
+}
+
+li {
+	font-size: var(--text-font-size);
+	color: var(--zwart);
+	letter-spacing: 0;
+	line-height: var(--line-height);
+	font-family: var(--font-text);
+	font-weight: 400;
+}
+
+h1 {
+	font-size: calc(3 * 1.618 * var(--text-font-size));
+	letter-spacing: 1px;
+	line-height: 1.4;
+	font-family: var(--font-heading);
+	font-weight: 900;
+	text-wrap: pretty;
+}
+
+h2 {
+	font-size: calc(2 * 1.618 * var(--text-font-size));
+	letter-spacing: 1px;
+	line-height: 1.11114;
+	font-family: var(--font-heading);
+	font-weight: 800;
+	text-wrap: pretty;
+}
+
+h3 {
+	font-size: calc(1 * 1.618 * var(--text-font-size));
+	letter-spacing: 1px;
+	line-height: var(--line-height);
+	font-family: var(--font-heading);
+	font-weight: 700;
+	text-wrap: pretty;
+}
+
+h4 {
+	font-size: calc(1 * var(--text-font-size));
+	letter-spacing: 1px;
+	line-height: var(--line-height);
+	font-family: var(--font-heading);
+	font-weight: 700;
+	text-wrap: pretty;
+}
+
+h5 {
+	font-size: calc(1 * var(--text-font-size));
+	letter-spacing: 1px;
+	line-height: var(--line-height);
+	font-family: var(--font-heading);
+	font-weight: 600;
+	text-wrap: pretty;
+}
+
+h6 {
+	font-size: calc(1 * var(--text-font-size));
+	letter-spacing: 1px;
+	line-height: var(--line-height);
+	font-family: var(--font-heading);
+	font-weight: 600;
+	text-wrap: pretty;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+	margin-top: 0;
+	background-color: red !important;
+}
+
+/*--------------------------------------------------------------------------------------*\
+| QUERIES
+\*--------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1800px) {
+}
+
+@media screen and (max-width: 1350px) {
+}
+
+@media screen and (max-width: 900px) {
+	h1 {
+		font-size: calc(2.5 * var(--text-font-size));
+		margin-bottom: 0.5em;
+	}
+
+	h2 {
+		font-size: calc(2.5 * var(--text-font-size));
+		margin-bottom: 0.5em;
+	}
+
+	h3 {
+		font-size: calc(1.5 * var(--text-font-size));
+		margin-bottom: 0.5em;
+	}
+
+	h4 {
+		font-size: calc(1.25 * var(--text-font-size));
+		margin-bottom: 0.5em;
+	}
+}

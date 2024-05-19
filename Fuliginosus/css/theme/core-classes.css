@@ -1,0 +1,157 @@
+/*--------------------------------------------------------------------------------------*\
+| CORE CLASSES
+\*--------------------------------------------------------------------------------------*/
+.is-vertically-aligned-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.is-vertically-aligned-bottom {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.is-vertically-aligned-top {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.has-text-align-center {
+	text-align: center;
+}
+.has-text-align-left {
+	text-align: left;
+}
+.has-text-align-right {
+	text-align: right;
+}
+.is-content-justification-center {
+	justify-content: center;
+}
+.is-content-justification-left {
+	justify-content: flex-start;
+}
+.is-content-justification-left {
+	justify-content: flex-end;
+}
+figure.aligncenter {
+	justify-content: center;
+}
+figure.aligntop {
+	justify-content: flex-start;
+}
+figure.alignbottom {
+	justify-content: flex-end;
+}
+
+h1.has-x-large-font-size {
+	font-size: calc(6 * 1.618 * var(--text-font-size));
+}
+h1.has-large-font-size {
+	font-size: calc(4.5 * 1.618 * var(--text-font-size));
+}
+h1.has-medium-font-size {
+	font-size: calc(3 * 1.618 * var(--text-font-size));
+}
+h1.has-small-font-size {
+	font-size: calc(1.5 * 1.618 * var(--text-font-size));
+}
+
+h2.has-x-large-font-size {
+	font-size: calc(4.5 * 1.618 * var(--text-font-size));
+}
+h2.has-large-font-size {
+	font-size: calc(3 * 1.618 * var(--text-font-size));
+}
+h2.has-medium-font-size {
+	font-size: calc(2 * 1.618 * var(--text-font-size));
+}
+h2.has-small-font-size {
+	font-size: calc(1 * 1.618 * var(--text-font-size));
+}
+
+h3.has-x-large-font-size {
+	font-size: calc(2 * 1.618 * var(--text-font-size));
+}
+h3.has-large-font-size {
+	font-size: calc(1.5 * 1.618 * var(--text-font-size));
+}
+h3.has-medium-font-size {
+	font-size: calc(1 * 1.618 * var(--text-font-size));
+}
+h3.has-small-font-size {
+	font-size: calc(0.5 * 1.618 * var(--text-font-size));
+}
+
+h4.has-x-large-font-size {
+	font-size: 32px;
+}
+h4.has-large-font-size {
+	font-size: 24px;
+}
+h4.has-medium-font-size {
+	font-size: var(--text-font-size);
+}
+h4.has-small-font-size {
+	font-size: 12px;
+}
+
+h5.has-x-large-font-size {
+	font-size: 32px;
+}
+h5.has-large-font-size {
+	font-size: 24px;
+}
+h5.has-medium-font-size {
+	font-size: var(--text-font-size);
+}
+h5.has-small-font-size {
+	font-size: 12px;
+}
+
+h6.has-x-large-font-size {
+	font-size: 32px;
+}
+h6.has-large-font-size {
+	font-size: 24px;
+}
+h6.has-medium-font-size {
+	font-size: var(--text-font-size);
+}
+h6.has-small-font-size {
+	font-size: 12px;
+}
+
+p.has-x-large-font-size {
+	font-size: 32px;
+}
+p.has-large-font-size {
+	font-size: 24px;
+}
+p.has-medium-font-size {
+	font-size: var(--text-font-size);
+}
+p.has-small-font-size {
+	font-size: 12px;
+}
+
+.is-image-fill > figure > img {
+	display: none;
+}
+
+/*--------------------------------------------------------------------------------------*\
+| QUERIES
+\*--------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1800px) {
+}
+@media screen and (max-width: 1350px) {
+}
+@media screen and (max-width: 900px) {
+	footer {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	footer {
+		flex-direction: column;
+	}
+}

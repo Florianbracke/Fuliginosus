@@ -1,0 +1,135 @@
+.wp-block-flavus-card-carousel-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: var(--spacing-gap);
+}
+.wp-block-flavus-card-carousel-card {
+	user-select: none;
+}
+.swipe-effect-next {
+	animation: swipe-next 0.3s;
+}
+.swipe-effect-prev {
+	animation: swipe-prev 0.3s;
+}
+.wp-block-flavus-card-carousel-card img {
+	user-drag: none;
+	-webkit-user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+.wp-block-flavus-card-carousel .card-figure {
+	width: 100%;
+	aspect-ratio: 3/2;
+	height: auto;
+}
+.card-heading {
+	margin: 1rem 0;
+}
+.card-p {
+	margin-bottom: 1rem;
+}
+.wp-block-flavus-card-carousel .card-buttons a {
+	background-color: unset;
+	padding: 0;
+	text-decoration: unset;
+	color: var(--primary-color);
+	font-weight: bold;
+	user-select: all;
+}
+.wp-block-flavus-card-carousel .card-buttons a:hover {
+	background-color: unset;
+	color: var(--primary-color);
+}
+.wp-block-flavus-card-carousel-card .text-info {
+	display: block;
+	padding: 1rem 0;
+}
+.wp-block-flavus-card-carousel-card.has-background .text-info {
+	padding: 1rem;
+}
+.wp-block-flavus-card-carousel-buttons {
+	display: none;
+	gap: 8px;
+	padding: 1rem 0;
+	width: var(--max-width);
+	position: absolute;
+	justify-content: space-between;
+	z-index: 0;
+}
+.wp-block-flavus-card-carousel-pagination {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	padding: 1rem 0;
+	align-items: center;
+	z-index: 1;
+	position: relative;
+}
+.wp-block-flavus-card-carousel .circle {
+	background: var(--secondary-color);
+    aspect-ratio: 1;
+    width: 1rem;
+    display: block;
+    height: 1rem;
+    cursor: pointer;
+    border-radius: 50%;
+    opacity: 0.5;
+	transition: 0.2s;
+}
+.wp-block-flavus-card-carousel .circle:hover {
+	opacity: 0.9;
+}
+.wp-block-flavus-card-carousel .circle.active {
+	opacity: 1;
+	height: 1.5rem;
+	width: 1.5rem;
+	transition: 0.2s;
+	
+}
+.wp-block-flavus-card-carousel-prev {
+	background: transparent;
+	width: 1rem;
+	height: 1rem;
+	transform: rotate(45deg);
+	border-left: 2px solid var(--secondary-color);
+	border-bottom: 2px solid var(--secondary-color);
+	cursor: pointer;
+}
+.wp-block-flavus-card-carousel-next {
+	background: transparent;
+	width: 1rem;
+	height: 1rem;
+	transform: rotate(45deg);
+	border-right: 2px solid var(--secondary-color);
+	border-top: 2px solid var(--secondary-color);
+	cursor: pointer;
+}
+.wp-block-flavus-card-carousel-navigation {
+	display: flex;
+	justify-content: center;
+}
+
+@keyframes swipe-next {
+	from {
+		transform: translateX(60px);
+		opacity: 0.7;
+	}
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+@keyframes swipe-prev {
+	from {
+		transform: translateX(-60px);
+		opacity: 0.7;
+	}
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}

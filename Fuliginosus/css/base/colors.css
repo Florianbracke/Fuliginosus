@@ -1,0 +1,167 @@
+/*--------------------------------------------------------------------------------------*\
+| COLORS
+\*--------------------------------------------------------------------------------------*/
+.has-wit-color {
+	color: var(--wit);
+}
+.has-grijs-color {
+	color: var(--grijs);
+}
+.has-zwart-color {
+	color: var(--zwart);
+}
+
+.has-primary-color-color {
+	color: var(--primary-color);
+}
+.has-secondary-color-color {
+	color: var(--secondary-color);
+}
+.has-background-color-color {
+	color: var(--background-color);
+}
+.has-text-color-color {
+	color: var(--text-color);
+}
+.has-heading-color-color {
+	color: var(--heading-color);
+}
+
+/* buttons, lists,... */
+.has-wit-color *:not(.has-text-color, a) {
+	color: var(--wit);
+}
+.has-grijs-color *:not(.has-text-color, a) {
+	color: var(--grijs);
+}
+.has-zwart-color *:not(.has-text-color, a) {
+	color: var(--zwart);
+}
+
+.has-primary-color-color *:not(.has-text-color, a) {
+	color: var(--primary-color);
+}
+.has-secondary-color-color *:not(.has-text-color, a) {
+	color: var(--secondary-color);
+}
+.has-color-background-color-color *:not(.has-text-color, a) {
+	color: var(--background-color);
+}
+.has-text-color-color * {
+	color: var(--text-color);
+}
+.has-heading-color-color * {
+	color: var(--heading-color);
+}
+
+
+/*--------------------------------------------------------------------------------------*\
+| BACKGROUND COLORS
+\*--------------------------------------------------------------------------------------*/
+.has-wit-background-color {
+	background-color: var(--wit);
+}
+.has-grijs-background-color {
+	background-color: var(--grijs);
+}
+.has-zwart-background-color {
+	background-color: var(--zwart);
+}
+
+.has-primary-color-background-color {
+	background-color: var(--primary-color);
+}
+.has-secondary-color-background-color {
+	background-color: var(--secondary-color);
+}
+.has-background-color-background-color {
+	background-color: var(--background-color);
+}
+.has-text-color-background-color {
+	background-color: var(--text-color);
+}
+.has-heading-color-background-color {
+	background-color: var(--heading-color);
+}
+
+/*--------------------------------------------------------------------------------------*\
+| BUTTON BACKGROUND COLORS
+\*--------------------------------------------------------------------------------------*/
+.wp-block-button__link.has-wit-background-color {
+	background-color: var(--wit);
+}
+.wp-block-button__link.has-grijs-background-color {
+	background-color: var(--grijs);
+}
+.wp-block-button__link.has-zwart-background-color {
+	background-color: var(--zwart);
+}
+
+.wp-block-button__link.has-primary-color-background-color {
+	background-color: var(--primary-color);
+}
+.wp-block-button__link.has-secondary-color-background-color {
+	background-color: var(--secondary-color);
+}
+.wp-block-button__link.has-background-color-background-color {
+	background-color: var(--background-color);
+}
+.wp-block-button__link.has-text-color-background-color {
+	background-color: var(--text-color);
+}
+.wp-block-button__link.has-heading-color-background-color {
+	background-color: var(--heading-color);
+}
+
+/*--------------------------------------------------------------------------------------*\
+| BUTTON HOVER COLORS
+\*--------------------------------------------------------------------------------------*/
+.wp-block-button__link:not(.has-background):hover,
+.wp-block-button__link.has-primary-color-background-color:hover {
+	background-color: var(--secondary-color);
+	color: var(--wit);
+}
+
+.wp-block-button__link.has-secondary-color-background-color:hover {
+	background-color: var(--primary-color);
+	color: var(--wit);
+}
+
+.wp-block-button__link.has-wit-background-color:hover,
+.wp-block-button__link.has-grijs-background-color:hover,
+.wp-block-button__link.has-zwart-background-color:hover,
+.wp-block-button__link.has-background-color-background-color:hover,
+.wp-block-button__link.has-text-color-background-color:hover,
+.wp-block-button__link.has-heading-color-background-color:hover {
+	background-color: var(--primary-color);
+	color: var(--wit);
+}
+
+/*--------------------------------------------------------------------------------------*\
+| HR BORDER COLORS
+\*--------------------------------------------------------------------------------------*/
+hr.has-wit-background-color {
+	border-color: var(--wit);
+}
+hr.has-grijs-background-color {
+	border-color: var(--grijs);
+}
+hr.has-zwart-background-color {
+	border-color: var(--zwart);
+}
+
+hr.has-primary-color-background-color {
+	border-color: var(--primary-color);
+}
+hr.has-secondary-color-background-color {
+	border-color: var(--secondary-color);
+}
+hr.has-background-color-background-color {
+	border-color: var(--background-color);
+}
+hr.has-text-color-background-color {
+	border-color: var(--text-color);
+}
+hr.has-heading-color-background-color {
+	border-color: var(--heading-color);
+}

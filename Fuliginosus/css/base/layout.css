@@ -1,0 +1,194 @@
+/*--------------------------------------------------------------------------------------*\
+| TEMPLATE PARTS
+\*--------------------------------------------------------------------------------------*/
+
+header {
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header > * {
+	padding-left: calc((100% - var(--max-width)) / 2);
+	padding-right: calc((100% - var(--max-width)) / 2);
+}
+
+footer {
+	max-width: 100%;
+	padding-left: calc((100% - var(--max-width)) / 2);
+	padding-right: calc((100% - var(--max-width)) / 2);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1.has-background,
+h2.has-background,
+h3.has-background,
+h4.has-background,
+h5.has-background,
+h6.has-background,
+li.has-background,
+p.has-background {
+	padding: var(--spacing-small);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	margin-bottom: 0.5em;
+}
+
+p{
+	max-width: 50vw;
+}
+
+
+/*--------------------------------------------------------------------------------------*\
+| CONTENT STRUCTURE
+\*--------------------------------------------------------------------------------------*/
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+}
+
+main {
+	background-color: var(--background-color);
+	overflow-x: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+main > * {
+	padding-left: var(--padding-sides);
+	padding-right: var(--padding-sides);
+	margin-top: 0;
+	width: 100%;
+}
+
+main > *:not(p, h1, h2, h3, h4, h5, h6, a) {
+	margin-bottom: var(--spacing-big);
+	margin-top: var(--spacing-big);
+}
+
+main > *.has-background:not(p, h1, h2, h3, h4, h5, h6, a, hr) {
+	padding-bottom: var(--spacing-big);
+	padding-top: var(--spacing-big);
+}
+
+main > p,
+main > a,
+main > li {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+main > h1,
+main > h2,
+main > h3 {
+	margin-top: var(--spacing-medium);
+}
+
+main > .wp-block-buttons {
+	margin-bottom: var(--spacing-small);
+}
+
+/* main > .alignfull > *{
+    max-width: var(--max-width);
+    margin: auto;
+    width: 100%;
+} */
+
+main > .wp-block-columns.alignwide.has-background {
+	max-width: 100%;
+	justify-content: center;
+}
+
+main > .wp-block-columns.alignwide.has-background > div:not(:only-child) {
+	max-width: calc(var(--max-width) / 2 - var(--spacing-gap) / 2);
+}
+
+/* columns small */
+main > :not(.alignwide, .alignfull) {
+	max-width: var(--small-width);
+	padding-left: calc(50% - var(--small-width) / 2);
+	padding-right: calc(50% - var(--small-width) / 2);
+}
+
+/* columns wide */
+main > .alignwide {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: var(--max-width);
+}
+
+/* columns full */
+main > .alignfull {
+	max-width: 100%;
+}
+main > .wp-block-columns.alignfull {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+main > .wp-block-columns.alignfull > div:first-child {
+	padding-left: calc(50% - var(--max-width) / 2);
+	padding-right: var(--spacing-medium);
+}
+
+main > .wp-block-columns.alignfull > div:last-child {
+	padding-right: calc(50% - var(--max-width) / 2);
+	padding-left: var(--spacing-medium);
+}
+
+/*--------------------------------------------------------------------------------------*\
+| QUERIES
+\*--------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1800px) {
+}
+
+@media screen and (max-width: 1350px) {
+	main > :not(.alignwide, .alignfull) {
+		padding-left: var(--padding-sides);
+		padding-right: var(--padding-sides);
+	}
+}
+
+@media screen and (max-width: 900px) {
+	main > .alignwide.has-background > div:not(:only-child) {
+		max-width: 100%;
+	}
+
+	main > .alignfull {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: var(--max-width);
+	}
+
+	main > :not(.alignwide, .alignfull) {
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	main > :not(.alignwide, .alignfull) > div {
+		max-width: var(--small);
+	}
+
+	main > *:not(.alignwide, .alignfull).has-background {
+		padding-left: var(--spacing-mid);
+		padding-right: var(--spacing-mid);
+		margin-bottom: var(--spacing-medium);
+	}
+
+	main > * {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"name": "flavus/card-carousel",
+	"apiVersion": "2",
+	"title": "Card Carousel",
+	"description": "Swipable cards, displayed in a carousel",
+	"category": "media",
+	"supports": {
+		"align": ["wide", "full"],
+		"color": {
+			"text": true,
+			"background": true
+		},
+		"mode": true
+	},
+	"icon": "format-gallery",
+	"keywords": ["carousel", "card", "cards"],
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+	},
+	"style": ["swiper-style", "swiper-css"],
+	"script": ["card-carousel", "swiper-js"],
+	"mode": "preview"
+}
