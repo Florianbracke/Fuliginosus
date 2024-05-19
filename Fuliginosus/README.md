@@ -1,7 +1,12 @@
-# CleanCanvas
-CleanCanvas Theme
+# Fuliginosus
+Fuliginosus Theme
 
-feautures:
+
+FEATURES:
+- Card Carousel
+- Custom colors
+- Custom fonts
+
 
 JS
 - auto lightbox on gallery
